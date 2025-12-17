@@ -1,0 +1,5 @@
+flask
+cryptography
+requests
+numpy
+scikit-learn
