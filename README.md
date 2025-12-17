@@ -25,21 +25,24 @@ It demonstrates secure network communication using modern cryptographic techniqu
    ```bash
    pip install -r requirements.txt
 
-Generate RSA keys:
+2. Generate RSA keys:
 
-python server/generate_keys.py
-
-
-Start the server:
-
-python server/server.py
+    ```bash
+   python server/generate_keys.py
 
 
-Run the client:
+3. Start the server:
 
-python client/client.py
+    ```bash
+   python server/server.py
 
-Project Structure
+
+4. Run the client:
+
+    ```bash
+   python client/client.py
+
+## Project Structure
 secure_messaging/
 
 ├── common/
@@ -50,7 +53,7 @@ secure_messaging/
 
 └── requirements.txt
 
-Author
+## Author
 
 Anatoly Barabanov
 
